@@ -1,0 +1,184 @@
+*{
+    background-image: url(imagenes/cafe.jpg);
+    background-position: center;
+     box-sizing: border-box;
+}
+
+div{
+      height: 100vh;
+      display: flex;              
+      justify-content: center;    
+      align-items: center;       
+      text-align: center;
+      flex-direction: column;
+      margin: 0;
+}
+p{    
+    margin: 0%;
+    color: white;
+    font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#menu,#redes{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#menu li a, #redes li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    display: flex;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding: 0%;
+    border: 0;
+}
+#texto img{
+    width: 200px;
+    margin-bottom: auto;
+}
+#texto{
+    display: flex;
+    flex-direction: row;
+    border: 0%;
+    padding: 0%;
+}
+#parrafo{
+    color: white;
+    margin-bottom: auto;
+}
+.Galeria img{
+    width: 300px;
+   
+}
+.Galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 20px;
+}
+h1{
+     align-items: center;
+     text-align: center;
+     position:sticky;
+}
+
+.Contactos1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+left: auto;
+top: auto;
+width: 90%;
+height: auto;
+margin-top:auto;
+}
+
+#mitabla td{
+ color: white;
+ border: 2px solid white;
+ width:300px;
+ height: 50px;
+}
+#mitabla th{
+   color: white;
+ border: 2px solid white;  
+}
+#tit{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+}
+#tit{
+    
+      display: flex;              
+      justify-content: center;    
+      align-items: center;       
+      text-align: center;
+      flex-direction: column;
+      margin: 0;
+}
+#caja{
+    float: right;
+    margin: 10px;
+    left: 0;
+    top: 0;
+    height: 30px;
+    color: white;
+}
+#caja input{
+    width: 250px;
+    height: 50px;
+    border: 3px solid white;
+}
+#boton{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    height: 150px;
+}
+#boton input{
+color: white;
+}
+#mapa{          
+     width: 300px;
+    height: auto;
+    margin:50px auto;  
+}
+.ap1{
+      display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 30px 80px;
+    align-items: start;
+     }
+.contactos1 h2{
+    color: white;
+}
+.contactos1 p{
+   text-align: justify;
+    line-height: 1.5;
+}
+.Nosotros1 h1 {
+      color: white;
+    text-align: center;
+    padding: 10px;
+      font-size: 30px;
+}
+.imag3 img{
+     width: 50%;
+    border-radius: 4px;
+}
+.imag4 {
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.imag4 img{
+    width: 250px;
+    border-radius: 6px;
+}
+.footer{
+    background-color: blue;
+   color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
